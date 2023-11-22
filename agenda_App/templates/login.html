@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form action="submit" method='POST'>
+
+        {% csrf_token %}
+
+    <div align='center' display='flex'>
+    <h2>Página de Login </h2>
+    
+    <label for="">Usuário</label>
+    <input type="text" name='username'>
+    <br>
+    <br>
+    <label for="">Senha</label>
+    <input type="password" name='password'>
+    <br>
+    <br>
+    <button type='submit'>Entrar</button>
+    </form>
+    {% for message in messages %}
+
+        <strong>{{ message }}</strong>
+
+    {% endfor %}
+</div>
+</body>
+</html>
