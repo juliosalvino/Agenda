@@ -2,7 +2,7 @@
 
 Repositório criado para armanezar o código de estudo de uma agenda, curso ministrado pela DIO, utilizando python e django.
 
-O projeto se trata de uma agenda multiusuário com as opções de gerenciamento de usuários (login, criação, reenvio de senha), CRUD para administrar as informações contidas no banco de dados (PostgreSQL).
+O projeto se trata de uma agenda multiusuário com as opções de gerenciamento de usuários (login, criação, reenvio de senha), CRUD para administrar as informações contidas no banco de dados.
 
 Principais itens utilizados no curso e aprendizados adquiridos:
 
